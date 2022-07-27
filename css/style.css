@@ -2714,10 +2714,11 @@ div#contact h3 {
 
 .header {
     /* display:none; */
-    background-color: #ffff;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
-    position: fixed;
-    width: 100%;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .fixed-nav-true .navbar-default .dropdown .dropdown-menu li a {
+      color: #454545 !important;
     z-index: 3;
 }
 
